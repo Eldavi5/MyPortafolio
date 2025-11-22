@@ -77,26 +77,26 @@ export function Navbar2() {
                     {mobileOpen ? '✕' : '☰'}
                 </button>
             </div>
-            {/* Menú móvil desplegable */}
-            <div
-                className={`md:hidden origin-top transition-[transform,opacity] duration-200 ease-out ${mobileOpen ? 'opacity-100 scale-y-100' : 'opacity-0 scale-y-0 pointer-events-none'
-                    } bg-white/85 dark:bg-neutral-950/85 backdrop-blur border-b border-neutral-200 dark:border-neutral-800`}
-            >
-                <ul className="flex flex-col px-4 py-2 gap-1">
-                    {sectionLinks.map(l => (
-                        <li key={l.href}>
-                            <Link
-                                href={l.href}
-                                onClick={() => setMobileOpen(false)}
-                                className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent/10 hover:text-accent ${active === l.href ? 'text-accent' : 'text-neutral-700 dark:text-neutral-300'
-                                    }`}
-                            >
-                                {l.label}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-            </div>
+            {/* Menú móvil: se renderiza sólo cuando está abierto para que no empuje el contenido */}
+            {mobileOpen && (
+                <div
+                    className="md:hidden absolute left-0 right-0 top-16 z-40 bg-white/90 dark:bg-neutral-950/90 backdrop-blur border-b border-neutral-200 dark:border-neutral-800 shadow-sm animate-fade-down"
+                >
+                    <ul className="flex flex-col px-4 py-2 gap-1">
+                        {sectionLinks.map(l => (
+                            <li key={l.href}>
+                                <Link
+                                    href={l.href}
+                                    onClick={() => setMobileOpen(false)}
+                                    className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-accent/10 hover:text-accent ${active === l.href ? 'text-accent' : 'text-neutral-700 dark:text-neutral-300'}`}
+                                >
+                                    {l.label}
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </nav>
     );
 }
