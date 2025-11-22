@@ -75,7 +75,7 @@ export const profile: ProfileData = {
     contact: {
         phone: '+52 55 1152 8080',
         email: 'davidsilvabello26@gmail.com',
-        linkedin: 'https://www.linkedin.com/in/davidsilvabello',
-        github: 'https://github.com/davidsilvabello'
+        linkedin: 'https://www.linkedin.com/in/david-silva-38006a1b0/',
+        github: 'https://github.com/Eldavi5'
     }
 };
