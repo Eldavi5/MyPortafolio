@@ -49,14 +49,16 @@ export const profile: ProfileData = {
     softSkills: ['Resolución de problemas', 'Documentación técnica', 'Trabajo colaborativo', 'Metodologías Ágiles (Scrum)'],
     experience: [
         {
-            role: 'Front End Developer (Anteriormente Full Stack)',
+            role: 'Front End Developer',
             company: 'Loop Conexión Empresarial',
             period: '2022 – Actualidad',
             summary: [
-                'Desarrollo de Interfaces de Alto Impacto: Lideré la construcción del frontend para la aplicación "Check-On", utilizando React para crear componentes reutilizables y modulares, mejorando la consistencia visual y reduciendo tiempos de desarrollo futuros.',
-                'Optimización y Rendimiento: Implementé Next.js para el desarrollo de interfaces web, logrando mejoras significativas en los tiempos de carga (LCP) y optimización SEO mediante Server-Side Rendering (SSR).',
-                'Integración de Servicios: Diseñé la lógica de consumo de datos y gestión de estado en el cliente para interactuar eficientemente con APIs REST desarrolladas en Django.',
-                'Colaboración Técnica: Participé activamente en la definición de la arquitectura de datos del backend (Django + REST) para asegurar endpoints optimizados para el consumo móvil y web.'
+                'Responsable del desarrollo de interfaces modernas para productos internos y consultoría externa, abarcando tanto desarrollo web como móvil.',
+                'Proyecto Externo: Sector Bancario (Fintech): Colaboré en la modernización de una aplicación bancaria utilizando Next.js, enfocándome en la reingeniería de la interfaz de usuario (UI) para mejorar la usabilidad y estética.',
+                'Optimicé el consumo de APIs bancarias, asegurando una integración segura y reduciendo los tiempos de respuesta.',
+                'Implementé diseño responsivo avanzado para garantizar consistencia visual en múltiples dispositivos.',
+                'Proyecto Interno: Check-On (Móvil & Web): Lideré el desarrollo de la aplicación móvil utilizando React Native, creando una experiencia nativa fluida para iOS y Android.',
+                'Diseñé una arquitectura de componentes reutilizables que permitió agilizar el desarrollo y facilitar el mantenimiento futuro.'
             ]
         }
     ],
@@ -74,7 +76,7 @@ export const profile: ProfileData = {
         { title: 'Machine Learning A a la Z: R y Python para Data Science' }
     ],
     contact: {
-        phone: '+52 55 1152 8080',
+        phone: '+56 1152-8080',
         email: 'davidsilvabello26@gmail.com',
         linkedin: 'https://www.linkedin.com/in/david-silva-38006a1b0/',
         github: 'https://github.com/Eldavi5'
