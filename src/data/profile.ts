@@ -39,23 +39,24 @@ export interface ProfileData {
 
 export const profile: ProfileData = {
     name: 'David Silva Bello',
-    role: 'Ing. Sistemas Computacionales | Desarrollador Full‑Stack',
-    about: '¡Hola! Soy David Silva Bello, un apasionado desarrollador Full Stack con experiencia construyendo aplicaciones web y móviles utilizando diversas tecnologías. Me especializo en desarrollar tanto el lado del cliente como el del servidor para entregar soluciones completas, escalables y mantenibles.',
-    skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'React', 'Next.js'],
-    backend: ['Python', 'Django'],
-    databases: ['PostgreSQL', 'SQL'],
-    tools: ['Git', 'Docker'],
-    softSkills: ['Trabajo en equipo', 'Adaptabilidad', 'Comunicación', 'Resolución de problemas'],
+    role: 'Front End Developer | React & Next.js Specialist',
+    location: 'México',
+    about: 'Desarrollador Front End especializado en el ecosistema de React y Next.js, con sólida experiencia en la creación de interfaces web escalables, responsivas y centradas en la experiencia del usuario (UX). Mi formación como Ingeniero en Sistemas y experiencia previa como Full Stack me permite comprender el ciclo completo de desarrollo, facilitando una integración eficiente con APIs REST y equipos de Backend. Apasionado por el código limpio, la optimización del rendimiento web y las metodologías ágiles.',
+    skills: ['JavaScript (ES6+)', 'HTML5', 'CSS3', 'Diseño Responsivo', 'React.js', 'Next.js', 'Redux', 'Context API'],
+    backend: ['Python', 'Django', 'Consumo de APIs RESTful'],
+    databases: [],
+    tools: ['Git', 'GitHub', 'Docker', 'Vercel', 'Netlify'],
+    softSkills: ['Resolución de problemas', 'Documentación técnica', 'Trabajo colaborativo', 'Metodologías Ágiles (Scrum)'],
     experience: [
         {
-            role: 'Desarrollador Full‑Stack',
-            company: 'Loop Conexión empresarial',
+            role: 'Front End Developer (Anteriormente Full Stack)',
+            company: 'Loop Conexión Empresarial',
             period: '2022 – Actualidad',
             summary: [
-                'Participación activa en el desarrollo integral de la aplicación Checx-On tanto frontend como backend.',
-                'Desarrollo de aplicaciones OTS usando React y Django en colaboración con equipo multidisciplinario.',
-                'Colaboración en backend para app móvil Flutter (gestión de datos, lógica de negocio y servicios RESTful).',
-                'Participación en desarrollo de paneles y consumo de endpoints en proyecto bancario con Next.js y APIs externas.'
+                'Desarrollo de Interfaces de Alto Impacto: Lideré la construcción del frontend para la aplicación "Check-On", utilizando React para crear componentes reutilizables y modulares, mejorando la consistencia visual y reduciendo tiempos de desarrollo futuros.',
+                'Optimización y Rendimiento: Implementé Next.js para el desarrollo de interfaces web, logrando mejoras significativas en los tiempos de carga (LCP) y optimización SEO mediante Server-Side Rendering (SSR).',
+                'Integración de Servicios: Diseñé la lógica de consumo de datos y gestión de estado en el cliente para interactuar eficientemente con APIs REST desarrolladas en Django.',
+                'Colaboración Técnica: Participé activamente en la definición de la arquitectura de datos del backend (Django + REST) para asegurar endpoints optimizados para el consumo móvil y web.'
             ]
         }
     ],
@@ -74,7 +75,7 @@ export const profile: ProfileData = {
     ],
     contact: {
         phone: '+52 55 1152 8080',
-        email: 'davidsilvabello25@gmail.com',
+        email: 'davidsilvabello26@gmail.com',
         linkedin: 'https://www.linkedin.com/in/david-silva-38006a1b0/',
         github: 'https://github.com/Eldavi5'
     }

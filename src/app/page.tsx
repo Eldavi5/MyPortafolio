@@ -44,12 +44,6 @@ export default function Home() {
           ))}
         </div>
         <div>
-          <h3 className="text-lg font-semibold mb-2">Bases de datos</h3>
-          {profile.databases.map(s => (
-            <SkillBadge key={s} label={s} />
-          ))}
-        </div>
-        <div>
           <h3 className="text-lg font-semibold mb-2">Herramientas</h3>
           {profile.tools.map(s => (
             <SkillBadge key={s} label={s} />
